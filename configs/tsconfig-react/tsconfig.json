@@ -1,0 +1,6 @@
+{
+  "extends": "@kevinwolfcr/tsconfig-browser",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}

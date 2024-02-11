@@ -1,0 +1,7 @@
+# Dependencies
+node_modules
+
+# Misc
+*.log*
+*.tsbuildinfo
+.DS_Store

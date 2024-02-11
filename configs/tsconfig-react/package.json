@@ -1,0 +1,37 @@
+{
+  "name": "@kevinwolfcr/tsconfig-react",
+  "version": "1.0.0",
+  "description": "Kevin Wolf's opinionated TypeScript config for React projects",
+  "keywords": ["tsconfig", "typescript", "config", "react", "kevinwolfcr"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinwolfcr/devtools/issues",
+    "email": "hi@kevinwolf.cr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinwolfcr/devtools",
+    "directory": "configs/tsconfig-react"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kevin Wolf",
+    "email": "hi@kevinwolf.cr",
+    "url": "https://kevinwolf.cr"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./tsconfig.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["tsconfig.json"],
+  "dependencies": {
+    "@kevinwolfcr/tsconfig-browser": "1.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=5",
+    "react": ">=18"
+  }
+}

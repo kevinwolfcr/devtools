@@ -1,0 +1,6 @@
+{
+  "extends": "@kevinwolfcr/tsconfig",
+  "compilerOptions": {
+    "types": ["@total-typescript/ts-reset", "bun-types"]
+  }
+}

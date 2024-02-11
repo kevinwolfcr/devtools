@@ -1,0 +1,33 @@
+{
+  "name": "@kevinwolfcr/biome-config",
+  "version": "1.0.0",
+  "description": "Kevin Wolf's opinionated Biome config",
+  "keywords": ["biome", "config", "kevinwolfcr"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://gitub.com/kevinwolfcr/devtools/issues",
+    "email": "hi@kevinwolf.cr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinwolfcr/devtools",
+    "directory": "configs/biome-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kevin Wolf",
+    "email": "hi@kevinwolf.cr",
+    "url": "https://kevinwolf.cr"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./biome.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["biome.json"],
+  "peerDependencies": {
+    "@biomejs/biome": ">=1.5.3-nightly.6cbf1c7"
+  }
+}

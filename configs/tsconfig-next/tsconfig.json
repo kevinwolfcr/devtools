@@ -1,0 +1,7 @@
+{
+  "extends": "@kevinwolfcr/tsconfig-react",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "plugins": [{ "name": "next" }]
+  }
+}
